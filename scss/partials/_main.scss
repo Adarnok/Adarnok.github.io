@@ -1,0 +1,51 @@
+section{
+    min-height: 80vh;
+    position: relative;
+    background: url('../img/start2.jpg') center/cover no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+    h2 {
+        font-size: 3.6rem;
+        text-align: center;
+        letter-spacing: .6rem;
+        padding: 4rem;
+        color: #fff;
+        background-color: rgba(0, 0, 0, .6);
+
+    }
+    p{
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        color: #fff;
+        background-color: rgba(0, 0, 0, .6);
+    }
+    .iframe{
+        
+        height: 100%;
+        overflow: hidden;
+        margin-bottom: 2rem;
+    }
+    iframe{
+        width: 100%;
+    }
+}
+
+section:nth-of-type(even){
+    background: url('../img/tlo1.jpg') center/cover no-repeat;
+    
+    
+    h2{
+        background-color: rgba(0, 0, 0, 0);
+        color: black;
+    }
+    p{
+        background-color: rgba(0, 0, 0, 0);
+        color: rgb(0, 0, 20);
+    }
+}
+
+section:nth-child(4){
+    background: url('../img/tlo1.jpg') center/cover no-repeat;
+    background-attachment: fixed;
+
+}
